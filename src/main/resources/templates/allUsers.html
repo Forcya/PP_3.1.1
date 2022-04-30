@@ -39,6 +39,7 @@
                 <td th:utext="${usr.getSurname()}">Surname</td>
                 <td th:utext="${usr.getAge()}">Age</td>
                 <td th:utext="${usr.getEmail()}">Email</td>
+
                 <td><a th:href="@{/users/{id}/update(id=${usr.getId()})}">Update</a></td>
 
             </tr>
